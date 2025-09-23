@@ -4,7 +4,7 @@
 -Web development
 -Software development
 -Mathematics
-System scipting
+-System scipting
 """
 # Why python
 """
