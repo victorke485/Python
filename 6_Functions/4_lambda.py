@@ -1,5 +1,5 @@
 # A lambda function is a small anonymous function
-# lambda argumenr  : expression
+# lambda argument  : expression
 
 x = lambda a : a + 10
 print(x(5))
