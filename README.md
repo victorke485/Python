@@ -10,3 +10,4 @@
 6. [Functions](/6_Functions)
 7. [Object Oriented Programming](7_Object_Oriented_Programming/)
 8. [Scope and modules](8_Scope_and_Modules)
+9. [Error Handling and Input](9_Error_Handling_and_Input)
