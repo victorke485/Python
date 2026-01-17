@@ -22,7 +22,7 @@ print(" " in my_str)
 # Length of a string
 print(len("hello world"))
 
-# Index of character in a string
+# Index of character in a string - subscripting
 language = "Python"
 print(language[0])
 print(language[-1])
@@ -30,7 +30,7 @@ print(language[-1])
 # String concatenation
 print("Hello" + " " + "World" + "!") 
 
-# To cancatenate a string and a number
+# To concatenate a string and a number
 age = 12
 name = "John"
 print(name + str(age))

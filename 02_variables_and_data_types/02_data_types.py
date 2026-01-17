@@ -5,6 +5,9 @@
 x = 12
 print(x, "is of type:", type(x))
 
+x = 12_232_234
+print(x, "is of type:", type(x))
+
 # Float - a number with a decimal point
 a = 34.13
 print(a, "is of type:", type(a))
