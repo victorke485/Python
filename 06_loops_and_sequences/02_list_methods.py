@@ -40,3 +40,6 @@ print(languages.index("Python"))
 # clear() - empties a list
 languages.clear()
 print(languages)
+
+
+

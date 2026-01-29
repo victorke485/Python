@@ -6,3 +6,4 @@
 3. [Operators](./03_operators/)
 4. [Conditionals](./04_conditionals/)
 5. [Functions](./05_functions/)
+6. [Loops and Sequances](./06_loops_and_sequences/)
