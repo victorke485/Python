@@ -7,3 +7,4 @@
 4. [Conditionals](./04_conditionals/)
 5. [Functions](./05_functions/)
 6. [Loops and Sequances](./06_loops_and_sequences/)
+7. [Dictionaries and Sets](./07_dictionaries_and_sets/)
