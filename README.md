@@ -8,3 +8,4 @@
 5. [Functions](./05_functions/)
 6. [Loops and Sequances](./06_loops_and_sequences/)
 7. [Dictionaries and Sets](./07_dictionaries_and_sets/)
+8. [Error Handling](./08_error_handling/)
