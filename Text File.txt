@@ -1,0 +1,111 @@
+Python/
+│
+├── 00_setup_basics/
+│   ├── python_installation.md
+│   ├── running_python.py
+│   ├── comments_pep8.py
+│
+├── 01_variables_data_types/
+│   ├── variables.py
+│   ├── numbers.py
+│   ├── strings.py
+│   ├── type_casting.py
+│   ├── f_strings.py
+│
+├── 02_input_output/
+│   ├── input_function.py
+│   ├── print_formatting.py
+│
+├── 03_operators/
+│   ├── arithmetic.py
+│   ├── comparison.py
+│   ├── logical.py
+│
+├── 04_conditionals/
+│   ├── if_else.py
+│   ├── nested_conditions.py
+│   ├── ternary_operator.py
+│
+├── 05_loops/
+│   ├── for_loop.py
+│   ├── while_loop.py
+│   ├── break_continue.py
+│   ├── range_enumerate.py
+│
+├── 06_functions/
+│   ├── defining_functions.py
+│   ├── parameters_arguments.py
+│   ├── return_values.py
+│   ├── docstrings.py
+│   ├── lambda_functions.py
+│
+├── 07_collections_data_structures/
+│   ├── lists.py
+│   ├── tuples.py
+│   ├── sets.py
+│   ├── dictionaries.py
+│   ├── list_comprehensions.py
+│
+├── 08_string_handling/
+│   ├── string_methods.py
+│   ├── slicing.py
+│   ├── formatting.py
+│
+├── 09_modules_packages/
+│   ├── importing_modules.py
+│   ├── creating_modules.py
+│   ├── standard_library.py
+│
+├── 10_scope_memory/
+│   ├── local_global.py
+│   ├── namespaces.py
+│
+├── 11_error_handling/
+│   ├── try_except.py
+│   ├── custom_exceptions.py
+│
+├── 12_file_handling/
+│   ├── reading_files.py
+│   ├── writing_files.py
+│   ├── csv_files.py
+│   ├── json_files.py
+│
+├── 13_oop_basics/
+│   ├── classes_objects.py
+│   ├── attributes_methods.py
+│   ├── init_method.py
+│   ├── inheritance.py
+│   ├── polymorphism.py
+│
+├── 14_advanced_functions/
+│   ├── args_kwargs.py
+│   ├── decorators.py
+│   ├── recursion.py
+│
+├── 15_working_with_time/
+│   ├── datetime_module.py
+│   ├── time_module.py
+│
+├── 16_virtual_environments/
+│   ├── venv_setup.md
+│
+├── 17_debugging_testing/
+│   ├── debugging_tools.py
+│   ├── unittest_basics.py
+│
+├── 18_external_libraries/
+│   ├── pip_usage.py
+│   ├── requests_intro.py
+│
+├── 19_web_basics/
+│   ├── http_basics.md
+│   ├── apis_intro.py
+│
+├── 20_data_handling_intro/
+│   ├── pandas_basics.py
+│   ├── numpy_basics.py
+│
+├── 21_gui_basics/
+│   ├── tkinter_intro.py
+│
+├── README.md
