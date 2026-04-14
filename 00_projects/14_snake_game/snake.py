@@ -10,11 +10,22 @@ class Snake:
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            new_segment = Turtle("square")
-            new_segment.penup()
+            self.add_segment(position)
+
+    def add_segment(self, position):
+        new_segment = Turtle("square")
+        new_segment.speed("slowest")
+        new_segment.penup()
+        if position == (0, 0):
+            new_segment.color("red")
+        else:
             new_segment.color("white")
-            new_segment.goto(position)
-            self.segments.append(new_segment)
+        new_segment.goto(position)
+        self.segments.append(new_segment)
+
+    
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
 
     def move(self):
             for seg_num in range(len(self.segments) - 1, 0, -1):
