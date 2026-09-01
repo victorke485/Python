@@ -7,6 +7,7 @@
 - IoT
 - Cybersecurity and ethical hackers
 """
+
 # Syntax
 print("Hello, World!")
 
@@ -15,4 +16,3 @@ print("Hello\nI am learning Python\nPython is awesome")
 
 # Input function
 name = input("Enter your name: ")
-print("Hello " + name)

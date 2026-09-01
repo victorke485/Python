@@ -5,7 +5,7 @@ def hello():
     print(f"Hello {name}")
 
 hello()
-
+print()
 # Functioin with parameters and arguments
 def add(a, b):
     print(f"The addition of {a} and {b} is {a + b}")

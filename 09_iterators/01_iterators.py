@@ -27,12 +27,12 @@ for key, value in person.items():
 
 
 # Iterating over file connections
-file = open("./09_iterators/file.txt")
-it = iter(file)
-print(next(it))
-print(next(it))
-print(next(it))
-print(next(it))
+with open("./09_iterators/file.txt") as file:
+    it = iter(file)
+    print(next(it))
+    print(next(it))
+    print(next(it))
+    print(next(it))
 
 
 # enumerate() - returns an iterator of tuples containing indices and values
@@ -49,4 +49,3 @@ languages = ["Python", "Java", "Javascript"]
 z = zip(names, languages)
 for z1, z2 in z:
     print(z1, z2)
-

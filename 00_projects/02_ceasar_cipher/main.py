@@ -3,16 +3,17 @@ from string import ascii_lowercase
 
 print(logo)
 
+
 def encrypt_decrypt(shift, direction, message):
     cipher = ""
-    if direction == "encode" or direction == "decode":    
+    if direction == "encode" or direction == "decode":
         for i in message:
             if direction == "encode":
                 shifted_index = alphabet.index(i) + shift
             else:
                 shifted_index = alphabet.index(i) - shift
             shifted_index %= len(alphabet)
-            cipher+=alphabet[shifted_index]
+            cipher += alphabet[shifted_index]
         print(f"Your {direction}d message is {cipher}")
     else:
         print("Enter valid option.")
@@ -28,7 +29,9 @@ while not exit:
 
     encrypt_decrypt(shift, direction, message)
 
-    proceed_choice = input("Proceed with the ceaser cipher? (Type yes to proceed and no to quit): ")
+    proceed_choice = input(
+        "Proceed with the ceaser cipher? (Type yes to proceed and no to quit): "
+    )
     if proceed_choice == "yes":
         exit = False
     else:

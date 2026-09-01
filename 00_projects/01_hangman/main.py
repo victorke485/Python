@@ -6,13 +6,13 @@ import random
 print(logo)
 
 random_word = random.choice(word_list)
-guessed_word = "_"*len(random_word)
+guessed_word = "_" * len(random_word)
 guessed_letters = ""
 game_over = False
 lives = 6
 
 print(random_word)
-print(f"Word to guess: {'_ '*len(random_word)}")
+print(f"Word to guess: {'_ ' * len(random_word)}")
 
 while not game_over:
     guess = input("Guess a letter: ").lower()
@@ -35,17 +35,23 @@ while not game_over:
         else:
             print(guessed_word)
             print(stages[lives])
-            print(f"****************************{lives}/6 LIVES LEFT****************************")
+            print(
+                f"****************************{lives}/6 LIVES LEFT****************************"
+            )
 
     else:
         lives -= 1
         guessed_letters += guess
         if lives == 0:
-            print(f"***********************IT WAS {random_word}! YOU LOSE**********************")
+            print(
+                f"***********************IT WAS {random_word}! YOU LOSE**********************"
+            )
             print(stages[lives])
             game_over = True
         else:
             print(f"You guessed {guess}, that's not in the word. You lose a life.")
             print(stages[lives])
-            print(f"****************************{lives}/6 LIVES LEFT****************************")
+            print(
+                f"****************************{lives}/6 LIVES LEFT****************************"
+            )
             print(guessed_word)

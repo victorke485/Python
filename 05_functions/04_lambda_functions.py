@@ -17,5 +17,5 @@ print(power(81, 17))
 # Lambda functions with iterables
 # map() --> Applies a function to all elements in an iterable
 names = ["alex", "kim", "brian"]
-to_upper = map(lambda x : x.upper(), names)
+to_upper = map(lambda x: x.upper(), names)
 print(list(to_upper))
